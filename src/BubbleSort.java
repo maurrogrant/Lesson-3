@@ -1,15 +1,5 @@
-public class Main {
-    public static void main(String[] args) {
-        int[] array = {64, 34, 25, 12, 22, 11, 90};
-        int iterations = bubbleSort(array);
-        
-        System.out.println("Отсортированный массив:");
-        for (int num : array) {
-            System.out.print(num + " ");
-        }
-        System.out.println("\nКоличество итераций: " + iterations);
-    }
-
+// Класс для реализации сортировки пузырьком
+public class BubbleSort {
     public static int bubbleSort(int[] array) {
         int n = array.length;
         boolean swapped;
