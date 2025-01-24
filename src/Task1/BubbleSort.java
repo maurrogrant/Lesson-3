@@ -1,3 +1,5 @@
+package Task1;
+
 // Класс для реализации сортировки пузырьком
 public class BubbleSort {
     public static int bubbleSort(int[] array) {
