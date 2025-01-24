@@ -1,3 +1,5 @@
+package Task3;
+
 import java.util.Scanner;
 
 // Главный класс для запуска программы
